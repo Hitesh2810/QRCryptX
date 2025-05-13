@@ -1,0 +1,47 @@
+/* Custom styles for the application */
+
+/* QR code display */
+.qr-code {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Scan region highlight */
+#scan-region-highlight {
+    border: 2px solid var(--bs-success);
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    height: 250px;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    box-shadow: 0 0 0 5000px rgba(0, 0, 0, 0.5);
+}
+
+/* Video container for QR scanning */
+#video-container {
+    min-height: 300px;
+    background-color: var(--bs-dark);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Key field styling */
+.key-field {
+    font-family: monospace;
+    letter-spacing: 1px;
+}
+
+/* Additional padding for better mobile experience */
+@media (max-width: 768px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .qr-code {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+}
