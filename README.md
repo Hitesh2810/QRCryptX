@@ -1,4 +1,4 @@
-# QRcryptX 🔐  
+# QrCryptX 🔐  
 ### Secure QR-Based File Sharing Application
 
 <p align="center">
